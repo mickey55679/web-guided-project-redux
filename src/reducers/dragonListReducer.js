@@ -1,3 +1,5 @@
+import { UPDATE_NEW_MEMBER, ADD_MEMBER } from "../actions/dragonListActions";
+
 export const initialState = {
     newMember: '',
     members: [
@@ -6,7 +8,7 @@ export const initialState = {
     ]
   };
 
-const dragonListReducer = (state, action) => {
+const dragonListReducer = (state = initialState, action) => {
   switch (action.type) {
     case UPDATE_NEW_MEMBER:
       return {
