@@ -4,8 +4,8 @@ export const initialState = {
     newMember: '',
     members: [
       { name: 'Jojo Zhang', dragonStatus: true },
-      { name: 'Brandon Harris', dragonStatus: false }
-    ]
+      { name: 'Brandon Harris', dragonStatus: false },
+    ],
   };
 
 const dragonListReducer = (state = initialState, action) => {

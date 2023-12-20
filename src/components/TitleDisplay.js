@@ -3,8 +3,6 @@ import { connect } from 'react-redux';
 import { toggleEditing } from '../actions/titleActions';
 
 const TitleDisplay = (props)=> {
-  
-
   return(<h2>
       {props.title}{' '}
       <i
